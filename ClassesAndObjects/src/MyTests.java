@@ -1,9 +1,7 @@
-
-
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 public class MyTests {
 
@@ -27,7 +25,7 @@ int newval=converter.hexToDecimal(happyday1);
 @Test
     public void char2decTest(){
 
-
+assertEquals(converter.hexCharToDecimal('A'),10,"Dec value of 'A' is 10");
 
 
 
